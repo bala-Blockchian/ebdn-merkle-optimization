@@ -1,0 +1,20 @@
+{
+    "types": [
+        "bytes32"
+    ],
+    "count": 4,
+    "values": {
+        "0": {
+            "0": "0x7e656e210b93f28e7663dc29ecdbcb2bbab4f08782c9df6bf6dfab04ba59d15e"
+        },
+        "1": {
+            "0": "0xe8c2b898ed24f3cc5fa571a80c2daea934b03d0d8bf7ae15da76f1d20d915fc9"
+        },
+        "2": {
+            "0": "0x9c02fc53c8d235041beb0a9b27325e2e1bbcb0c1f17fc9e1538b2e54083c799d"
+        },
+        "3": {
+            "0": "0x3411b597fedbf51facdb4810f34f9c13cfc55e0b9f8e670217193cf34a6c60dc"
+        }
+    }
+}
