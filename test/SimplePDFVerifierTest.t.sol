@@ -52,7 +52,7 @@ contract SimplePDFVerifierTest is Test {
 
         assertTrue(result);
     }
-    
+
     function testGetHash() public {
         vm.prank(owner);
         verifier.setPdfHash(PDF_ID, PDF_HASH);
