@@ -1,12 +1,13 @@
+# Maritime Document Integrity (MDI) Merkle Optimization Prototype
 
-# ZeroNorth eBDN Merkle Optimization Prototype
-
-This repository contains a high-performance blockchain verification prototype designed to optimize the Electronic Bunker Delivery Note (eBDN) infrastructure. By transitioning from a linear hash-mapping model to a Merkle-based architecture, this solution reduces on-chain storage requirements by over 99%.
+This repository contains a high-performance blockchain verification prototype designed to optimize Electronic Bunker Delivery Note (eBDN) and maritime document infrastructure. By transitioning from a linear hash-mapping model to a Merkle-based architecture, this solution reduces on-chain storage requirements by over 99%.
 
 ---
 
 ## Technical Innovation
-Current eBDN systems anchor every individual document hash to the blockchain, creating linear growth in storage costs. This prototype introduces Merkle Root Anchoring, where thousands of documents are represented by a single 32-byte root hash on-chain.
+Current digital document systems often anchor every individual hash to the blockchain, creating linear growth in storage costs. This prototype introduces Merkle Root Anchoring, where thousands of documents are represented by a single 32-byte root hash on-chain.
+
+
 
 ### Key Benefits
 * Massive Gas Savings: Storage costs reduced from 2.6M gas to ~25k gas for 100 documents.
@@ -43,7 +44,7 @@ Note: Gas is the unit of computation on the blockchain. While verification requi
 ### Run Gas Benchmarks
 ```shell
 # Clone the repository
-git clone https://github.com/bala-Blockchian/zeronorth-ebdn-merkle-optimization.git
+git clone [https://github.com/bala-Blockchian/maritime-merkle-optimization.git](https://github.com/bala-Blockchian/maritime-merkle-optimization.git)
 
 # Run tests with gas reports
 forge test -vvv --gas-report
@@ -61,4 +62,3 @@ Distributed under the MIT License.
 Developed by: Balamurugan Nagarajan
 Role: Blockchain Developer
 Date: January 31, 2026
-
